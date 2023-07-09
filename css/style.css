@@ -1,0 +1,50 @@
+/* *Common shared styles */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;500;700&family=Inter:wght@600&family=Open+Sans:wght@400;500;600;700;800&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* *Header section style */
+
+/* Navbar Styles */
+
+.nav-container{
+    background-color: #BACDDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+.logo-img{
+    width: 300px;
+}
+
+.menus {
+    display: flex;
+    gap: 50px;
+    margin-right: 280px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
