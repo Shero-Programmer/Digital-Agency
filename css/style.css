@@ -244,3 +244,60 @@ align-items: center;
     color: white;
     font-size: 30px;
 }
+
+/* Blog section style */
+
+.blog-title{
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+.blog-description{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 50%;
+    margin: auto;
+}
+.blog-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.blog-post-container{
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+}
+.blog-post{
+    background-color: #C5DFF8;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #D7C0AE ;
+}
+
+.post-title{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.post-description{
+    padding: 10px 20px 30px;
+}
+    
+
+
+
+
+/* *Footer section style */
+
+.footer-container{
+    margin-top: 100px;
+    height: 50vh;
+    background-color: #00235B;
+}
