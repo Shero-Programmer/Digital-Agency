@@ -49,7 +49,7 @@ a{
 /* Navbar Styles */
 
 .nav-container{
-    background-color: #BACDDB;
+    background-color: #EEEEEE;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ a{
 
 .banner-container{
     height: 100vh;
-    background-image: url("../assets/images/background.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4));
+    background-image: url("../assets/images/background.jpg"), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
     background-blend-mode: overlay;
     background-repeat: repeat;
     background-position: center;
@@ -145,6 +145,9 @@ a{
 
 .service-headline{
     color: black;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 10px;
 }
 
 .two-services{
@@ -193,4 +196,51 @@ a{
 .author-name{
 display: flex;
 align-items: center;
+}
+
+/* Appointment section style */
+
+.appointment-logo{
+    width: 100px;
+}
+
+.appointment-container{
+    width: 80vw;
+    height: 25vh;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    background-color: #f52c2c ;
+    border-radius: 10px;
+    padding: 0 100px;
+    margin-top: -50px;
+   
+}
+
+.appointment-description{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+    
+}
+
+.phone{
+     width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+      border-right:2px solid white ;
+    
+}
+
+.phone-title{
+    font-size: 15px;
+    color: white;
+}
+
+.number{
+    color: white;
+    font-size: 30px;
 }
